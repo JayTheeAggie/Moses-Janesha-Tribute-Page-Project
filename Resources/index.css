@@ -6,6 +6,7 @@ body, html {
   font-size: 16px;
   margin: 20px, 20px;
   display:block;
+  background-color: lavender;
 
 }
 
@@ -13,6 +14,7 @@ h2{
     text-align: center;
     font-size: 20px;
     padding: 14px;
+    color:rgb(63, 1, 63);
 }
 
 .bgimg {
@@ -24,29 +26,17 @@ h2{
   opacity: 60%;
 }
 
-.menu {
-  display: none;
-}
-
-.media {
-    width: 200px;
-    height: 200px;
-    border-color: rgb(151, 6, 151);
-    border-width: 2px;
-    display: block;
-}
-
 figcaption{
     border-width: 2px;
     border-style: solid;
-    border-color:rebeccapurple;
+    border-color:rgb(121, 36, 3);
+    color:rgb(63, 1, 63);
 
 }
 
-
 figure  img {
-    max-height: 350px;
-    max-width: 350px;
+    max-height: 500px;
+    max-width: 500px;
     border-style: solid;
     border-color: rgb(63, 1, 63);
     border-width: 5px;
@@ -61,27 +51,37 @@ col {
     display:inline-block;
 }
 
-footer {
+footer p {
     display:block;
-    background-color:rgb(151, 6, 151);
+    background-color:black;
     text-align: center;
+    color:white;
+    font-size: 14px;
+    align-items: center;
+    padding-top:18px;
+    padding-bottom:18px;
     
 }
 
-ul {
-    text-align: right;
-    align-items: right;
-    color: white;
-    font-size: 16px;
+ul li {
+    text-align: center;
+    align-items: center;
+    color:white;
+    font-size: 32px;
     text-decoration: none;
     list-style:none;
+    display:inline;
+    padding-left:20%;
+    text-decoration: bold;
+    
+    
 }
 
 ul a {
     text-align: right;
     align-items: right;
     color: white;
-    font-size: 16px;
+    font-size: 32px;
     text-decoration: none; 
 }
 
@@ -90,4 +90,21 @@ button {
     color: rgb(151, 6, 151);
     display: block;
     margin: auto;
+    height:30px;
+    width:90px;
+    font-family:Georgia;
+    font-size:medium;
+}
+
+h1 {
+    text-align: center;
+    padding:5px;
+}
+
+#About {
+    margin: 10px 250px;
+    color:rgb(63, 1, 63);
+    background-color: rgb(253, 218, 198);
+    border-style:dotted;
+    
 }
