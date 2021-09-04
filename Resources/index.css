@@ -24,7 +24,7 @@ h2{
 #bgimg {
   position: absolute;
   background-size: 50%;
-  background-image: url("/Users/biancalyoung/Documents/Janesha Business Files/Coding Files/Week 3/Flow Arts Site/Resources/Photos/firePoi.jpeg");
+  background-image: url("./Photos/firePoi.jpeg");
   background-repeat: repeat;
   height: 30%;
   width: 100%;
